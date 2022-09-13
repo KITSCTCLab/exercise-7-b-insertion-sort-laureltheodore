@@ -3,9 +3,9 @@ from typing import List
 def insertionSort(array) -> List[int]:
   # Write your code here
   for i in range(1, len(array)):
-t = array[i]
-j = i-1
-while j >=0 and t < array[j] :
+    t = array[i]
+    j = i-1
+    while j >=0 and t < array[j] :
 
 array[j+1] = array[j]
 j -= 1
